@@ -12,10 +12,6 @@ namespace Full_GRASP_And_SOLID
 {
     public class Program
     {
-        private static List<Product> productCatalog = new List<Product>();
-
-        private static List<Equipment> equipmentCatalog = new List<Equipment>();
-
         public static void Main(string[] args)
         {
             PopulateCatalogs();
